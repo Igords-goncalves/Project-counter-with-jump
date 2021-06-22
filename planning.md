@@ -76,6 +76,7 @@ git log
 
 gitlogbranch
 ~~~
+
 Observe as alterações feitas na branch. Para conferir que a master não sabe disso, vamos ver o log da master:
 
 ~~~bash
