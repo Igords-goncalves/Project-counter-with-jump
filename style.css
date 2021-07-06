@@ -1,21 +1,22 @@
 body {
-    background: rgb(26, 160, 115);
+    background:  url(./img/background.jpg);
     font-size: 20pt;
     font: normal 16pt arial;
     text-align: center;
+    align-items: center;
 }
 header {
     color: white;
 }
 section {
-    background: white;
+    background: rgba(54, 54, 54, 0.856);
     width: 500px;
     padding: 15px;
     margin: auto;
-    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.2);
     border-radius: 15px;
-    text-align: left;
+    text-align: center;
     font-weight: 600;
+    color: white;
 }
 footer {
     color: white;
