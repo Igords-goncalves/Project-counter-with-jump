@@ -1,24 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 body {
-    background:  url(./img/background.jpg);
-    font-size: 20pt;
-    font: normal 16pt arial;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
     align-items: center;
+    background:  url(./img/background.jpg);
+    background-size: cover;
+    height: 100vh;
 }
-header {
+header h1 {
     color: white;
+    font: bold 20pt arial;
+    text-transform: uppercase;
+    padding: 50px;
 }
-section {
+main {
     background: rgba(54, 54, 54, 0.856);
     width: 500px;
-    padding: 15px;
-    margin: auto;
-    border-radius: 15px;
-    text-align: center;
+    height: 100%;
+    border-radius: 10px;
     font-weight: 600;
+    font: normal 14pt arial;
     color: white;
+}
+#dados, #result {
+    padding: 20px;
+    margin-left: 25%;
+}
+#dados {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+#txti, #txtf, #txtp {
+    margin: 20px 0px;
+}
+#result {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.botao {
+    text-align: center;
+}
+.botao input {
+    background-color: coral;
+    color: white;
+    border: none;
+    font: normal 18px arial;
+    padding: 5px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.botao input:hover {
+    background-color: chocolate;
+    transition: 0.2s;
 }
 footer {
     color: white;
-    font-size: 21pt;
+    font: normal 14pt arial;
+    margin: 40px 0px;
 }
